@@ -101,7 +101,7 @@ section {
     width: 330px;
     height: 30px;
     padding: 6px 12px;
-    border: 1px #a0a0a0;
+    border: 1px solid #a0a0a0;
 }
 
 .search-button {
@@ -123,7 +123,7 @@ section {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 0.2;
+    letter-spacing: 0.2px;
 }
 
 .profile {
