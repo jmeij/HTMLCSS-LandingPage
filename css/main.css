@@ -1,11 +1,48 @@
 /************* BASE STYLES *************/
-* { box-sizing: border-box; }
-body { font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.4; color: #364147; margin: 0; }
-input, button { font-family: inherit; font-size: inherit; }
-a { color: #faa541; text-decoration: none; }
-ul { padding: 0; margin: 0; list-style: none; }
-nav { padding: 10px 0; }
-h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #364147;
+    margin: 0;
+}
+
+input,
+button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+a {
+    color: #faa541;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
 /***************************************/
 
 .container {
@@ -69,12 +106,14 @@ section {
 
 .text-light {
     font-size: 30px;
-    color: #a0a0a0; 
+    color: #a0a0a0;
 }
+
 .text-secondary {
     font-size: 30px;
     color: #faa541;
 }
+
 .text-primary {
     font-size: 16px;
     color: #364147;
@@ -149,4 +188,28 @@ section {
 .profile-pic img {
     border-radius: 100px;
     max-width: 100%;
+}
+
+.hero {
+    background-image: url(/img/hero.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    position: relative;
+    background-position-x: -30px;
+}
+
+.hero h2 {
+    color: #faa541
+}
+
+.hero h1,
+h2 {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9px;
 }
